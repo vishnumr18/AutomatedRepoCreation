@@ -1,4 +1,4 @@
-## To Save the file executable
+## To make the file executable.
 chmod +x create_repos.sh
 
 ## To execute the script file. 
