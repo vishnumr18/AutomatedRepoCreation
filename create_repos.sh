@@ -11,7 +11,7 @@ if [ -z "$INPUT_FILE" ]; then
 fi
 
 # Log file to store the output
-LOG_FILE="repo_creation_log_$(date +'%Y-%m-%d_%H-%M-%S').csv"
+LOG_FILE="/Users/vishnumr/My Files/Vishnu/Hackzion 2025/GitHub Repos/Log Files/repo_creation_log_$(date +'%Y-%m-%d_%H-%M-%S').csv"
 
 # Initialize log file with header
 echo "Team Name,Collaborator Account,Repo Creation Status,Collaborator Addition Status" > "$LOG_FILE"
